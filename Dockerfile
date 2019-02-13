@@ -1,9 +1,6 @@
 FROM	alpine:3.9
 
 LABEL	org.label-schema.description="Useful network related tools"
-LABEL	org.label-schema.vendor=travelping.com
-LABEL	org.label-schema.copyright=travelping.com
-LABEL	org.label-schema.version=1.10.0
 
 RUN		apk add --no-cache --update \
 		bash \
@@ -22,4 +19,5 @@ RUN		apk add --no-cache --update \
 		socat \
 		ethtool \
 		mtr \
-		tcpdump
+		tcpdump \
+		bind-tools

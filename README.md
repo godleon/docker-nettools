@@ -9,5 +9,6 @@ installed:
 - iperf3
 - drill
 - socat
+- bind-tools
 
 Please see the Dockerfile for a complete list of tools.
